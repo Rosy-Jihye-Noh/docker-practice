@@ -1,6 +1,6 @@
 # Docker 연습 프로젝트 모음
 
-이 저장소는 Docker와 Docker Compose, 그리고 Spring Boot, Node.js 등 다양한 환경에서의 컨테이너 실습을 위한 예제 프로젝트들을 모아둔 공간입니다.
+이 저장소는 Docker와 Docker Compose, 그리고 Spring Boot, Node.js 등 다양한 환경에서의 컨테이너 실습 프로젝트들을 모아둔 공간입니다.
 
 ## 폴더별 설명
 
