@@ -17,7 +17,7 @@
 | [docker-folder](#1-docker-folder) | Docker 기본 | ⭐ | Docker 기본 명령어 연습 |
 | [docker-node-app](#2-docker-node-app) | Node.js + Express | ⭐⭐ | 단일 컨테이너 Node.js 앱 |
 | [docker-compose-app](#3-docker-compose-app) | Node.js + Redis | ⭐⭐⭐ | 멀티 컨테이너 환경 |
-| [docker-spring](#4-docker-spring) | Spring Boot + Oracle | ⭐⭐⭐⭐ | 엔터프라이즈급 애플리케이션 |
+| [docker-spring](#4-docker-spring) | Spring Boot + Oracle | ⭐⭐⭐⭐ | 데이터베이스 연동 Spring Boot 앱 |
 
 ## 🔧 사전 요구사항
 
@@ -166,7 +166,7 @@ docker-compose down --rmi all
 ---
 
 ### 4. docker-spring
-**Spring Boot + Oracle DB 엔터프라이즈 애플리케이션**
+**Spring Boot + Oracle DB 연동 애플리케이션**
 
 #### 📂 파일 구조
 ```
@@ -190,9 +190,9 @@ docker-spring/
 
 #### 🎯 학습 목표
 - Spring Boot 애플리케이션 컨테이너화
-- 데이터베이스 연동
+- 데이터베이스 연동 및 설정
 - MyBatis를 이용한 데이터 접근
-- 복잡한 멀티 서비스 환경 구성
+- 멀티 컨테이너 환경에서의 서비스 구성
 
 #### 🚀 실행 방법
 ```bash
