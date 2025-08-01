@@ -1,0 +1,13 @@
+services:
+  oracle11g:
+    image: wilxim/oracle-xe-11g
+    container_name: oracle11g
+    ports:
+      - 1521:1521
+      - 8080:8080
+
+  docker-spring:
+    image: yourname/docker-spring
+    build: .
+    ports:
+      - 8081:8081

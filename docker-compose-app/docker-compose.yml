@@ -1,0 +1,11 @@
+version: '3'
+services:
+  redis-server:
+    image: 'redis'
+
+  node-app:
+    build: . #dockerfile의 위치. 이를 바탕으로 image 생성
+    ports:
+      - '5000:8082'
+    depends_on:
+      - redis-server
