@@ -1,4 +1,4 @@
-package com.example.docker_spring.controller;
+package com.example.docker_spring.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -46,3 +46,9 @@ build/
 *.iml
 .idea/
 .vscode/
+
+
+.env
+*.env
+.env.local
+.env.production
